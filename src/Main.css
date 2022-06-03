@@ -1,0 +1,77 @@
+.Main_name{
+    text-decoration-style: solid;
+    font-size: xxx-large;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+}
+.sidenavs {
+    height: 100%;
+    width : "250px";
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenavs a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  } 
+  .sidenavs a:hover {
+    color: #f1f1f1;
+  }
+  .sidenavs .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenavs {padding-top: 15px;}
+    .sidenavs a {font-size: 18px;}
+  }
+  .test_new{
+      display: none;
+  }
+  .close_btn{
+      color: azure;
+      font-size: 24px !important;
+     position: absolute;
+     top: 0;
+     right: 25px;
+     font-size: 36px;
+     margin-left: 50px;
+  }
+  .image_men_clss{
+    height: 40px;
+    width: 40px;
+  }
+  .image_men_cls{
+    height: 40px;
+    width: 40px;
+    float: right;
+}
+.close_btns{
+  color: white;
+  background-color: rgb(136, 47, 29);
+  width: 50px;
+  height: 50px;
+}
+.log_btn{
+  background-color: #04AA6D!important;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+    text-align: center !important;
+}

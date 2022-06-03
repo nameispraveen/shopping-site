@@ -1,0 +1,78 @@
+.Navbar_class{
+    background-color: #e0e0b7;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.a_tag{
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+}
+.image_cls{
+    width: 47px;
+    height: 40px;
+    float: left;
+}
+.menu_class{
+    display: block;
+    width: 250px;
+    height: auto;
+    background-color: #24d8e1;
+} 
+
+.sidenav {
+    height: 100%;
+    width : "250px";
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  } 
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .test_new{
+      display: none;
+  }
+  .close_btn{
+      color: azure;
+      font-size: 24px !important;
+     position: absolute;
+     top: 0;
+     right: 25px;
+     font-size: 36px;
+     margin-left: 50px;
+     color: white;
+     background-color: rgb(136, 47, 29);
+     width: 35px;
+    height: 35px;
+  }
