@@ -22,7 +22,7 @@ function App() {
       <Main />
       <Navbar />
           <Routes>
-              <Route path="/to" element={<Home />} />
+              <Route path="/" element={<Home />} />
               <Route path="/Men" element={<Men />} />
               <Route path="/Women" element={<Women />} />
               <Route path="/Kids" element={<Kids />} />
@@ -35,9 +35,10 @@ function App() {
               <Route path='/Cookies' element={<Cookies />} />
               <Route path='/Signup' element={<Signup />} />
           </Routes>
-          <Adds />
+          {/* <Adds /> */}
           <Footer />
       </BrowserRouter>
+      
     </div>
   );
 }

@@ -8,12 +8,12 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: stretch; */
-    position: fixed;
+    /* position: fixed; */
     padding: 30px 10px 0px 10px;
     bottom: 0;
     width: 100%;
     /* Height of the footer*/ 
-    height: 40px;
+    height: 100px;
     background: rgb(58, 54, 54);
 }
 .a_tag_footer{
