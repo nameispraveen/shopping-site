@@ -7,9 +7,11 @@ export default function Kids() {
   return (
     <div>
       <h1>KIDS</h1>
+      <div className='men_main_div'>
       <Kids_items />
-      <img className='image_mens' src={kids}  alt="Logo" />
-      <img className='image_mens' src={kids1}  alt="Logo" />
+      </div>
+      <img className='image_menss' src={kids}  alt="Logo" />
+      <img className='image_menss' src={kids1}  alt="Logo" />
     </div>
   )
 }

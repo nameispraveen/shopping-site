@@ -7,10 +7,9 @@ export default function Men() {
   return (
     <div>
       <h1>MENS</h1>
-      <Men_items />
-      <img className='image_mens' src={men}  alt="Logo" />
-     
-      <img className='image_mens' src={Foot}  alt="Logo" />
+      <div className='men_main_div'><Men_items /></div>
+      <img className='image_mensss' src={men}  alt="Logo" />
+      <img className='image_mensss' src={Foot}  alt="Logo" />
     </div>
   )
 }

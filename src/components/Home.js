@@ -8,9 +8,9 @@ import './Signup.css'
 import { Link } from 'react-router-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
-import Men_items from "./Men_items";
-import Womens_items from "./Womens_items";
-import Kids_items from "./Kids_items";
+import Men from './Men.js'
+import Women from './Women.js'
+import Kids from './Kids'
 
 class Home extends Component {
   componentDidMount() {
@@ -54,9 +54,9 @@ class Home extends Component {
                     {/* <p className="legend">Legend 5</p> */}
                 </div>
             </Carousel>
-            <Men_items />
-            <Kids_items/>
-            <Womens_items />
+            <Men />
+            <Women />
+            <Kids />
 
         </div>
     )

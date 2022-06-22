@@ -14,7 +14,7 @@ import Terms_and_Conditions from './components/Terms_and_Conditions';
 import Cookies from './components/Cookies';
 import Footer from './Footer';
 import Signup from './components/Signup';
-import Adds from './components/Adds';
+import './App.css'
 function App() {
   return (
     <div className="App">
@@ -36,7 +36,9 @@ function App() {
               <Route path='/Signup' element={<Signup />} />
           </Routes>
           {/* <Adds /> */}
+          <div className='footer_css'>
           <Footer />
+          </div>
       </BrowserRouter>
       
     </div>
